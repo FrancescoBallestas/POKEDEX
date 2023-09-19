@@ -192,3 +192,16 @@ li:hover{
     background-color: #81B9EF;
     border-radius: 2px;
 }
+
+@media screen and (max-width: 500px){
+
+
+    ul{
+        flex-direction: column;
+        width: calc(200px*3);
+    }
+
+
+    
+
+}
