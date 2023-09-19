@@ -1,0 +1,194 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font-family: 'Roboto', sans-serif;
+   
+    text-decoration: none;
+    list-style: none;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    height: 100px;
+    width: 100%;
+    text-align: center;
+}
+.icono-pokedex{
+    padding: 0 0 0 30px;
+    height: 50px;
+}
+
+h1{
+    padding: 0 0 0 30px;
+    color: #313131;
+}
+
+img{
+    height: 150px;
+    /* background-color: #F2F2F2; */
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+section{
+    
+    display: flex;
+    align-items: center;
+    
+}
+
+ul{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    margin-top: 50px;
+    align-items: center;
+    width: calc(200px*6);
+    /* height: calc(200px*2);
+    overflow-y: scroll; */
+}
+
+.numero-id{
+    color: #919191;
+}
+
+h5{
+    color: #313131;
+}
+
+
+li:hover .pokemon{
+    transform: scale(1.2);
+    transition: ease 1s;
+}
+
+li{
+    padding-top: 20px;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+    height: 300px;
+    border-radius: 5px;
+    
+    background-color: #F2F2F2;
+    opacity: 0.2;
+}
+
+div{
+    display: flex;
+    flex-wrap: wrap;
+    width: 80px;
+    align-items: flex-start;
+    margin-top: 15px;
+}
+
+
+li:hover{
+    opacity: 1;
+}
+
+
+/* Configuración de estilos para las etiquetas de tipo de Pokemon y su respectivo icono */
+.icono-tipo{
+    width: 15px;
+    height: 15px;
+}
+
+.tipo-planta, .tipo-veneno, .tipo-acero, .tipo-agua, .tipo-bicho, .tipo-dragon, .tipo-electrico, .tipo-fantasma, .tipo-fuego, .tipo-hada, 
+.tipo-hielo, .tipo-lucha, .tipo-normal, .tipo-psiquico, .tipo-roca, .tipo-siniestro, .tipo-tierra, .tipo-volador{
+    color: #ffffff;
+    margin-top: 20px;
+  
+}
+
+.tipo-planta{
+    background-color: #3FA129;
+    border-radius: 2px;
+
+}
+
+.tipo-veneno{
+    background-color: #8F41CB;
+    border-radius: 2px;
+}
+
+.tipo-acero{
+
+}
+
+.tipo-agua{
+    background-color: #2980EF;
+    border-radius: 2px;
+}
+
+.tipo-bicho{
+    background-color: #91A119;
+    border: 2px;
+}
+
+.tipo-dragon{
+
+}
+
+.tipo-electrico{
+
+}
+
+.tipo-fantasma{
+
+}
+
+.tipo-fuego{
+    background-color: #E62829;
+    border: 2px;
+}
+
+.tipo-hada{
+    background-color: #EF71EF;
+    border-radius: 2px;
+}
+
+.tipo-hielo{
+
+}
+
+.tipo-lucha{
+
+}
+
+.tipo-normal{
+    background-color: #9FA19F;
+    border-radius: 2px;
+}
+
+.tipo-psiquico{
+
+}
+
+.tipo-roca{
+
+}
+
+.tipo-siniestro{
+
+}
+
+.tipo-tierra{
+    background-color: #915121;
+    border-radius: 2px;
+}
+
+.tipo-volador{
+    background-color: #81B9EF;
+    border-radius: 2px;
+}
