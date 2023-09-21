@@ -4,26 +4,32 @@
     border: 0;
     font-size: 100%;
     font-family: 'Roboto', sans-serif;
-   
+    scroll-behavior: smooth;
     text-decoration: none;
     list-style: none;
 }
 
 header{
     display: flex;
+    justify-content: center;
     align-items: center;
     height: 100px;
     width: 100%;
     text-align: center;
+    background-color: #616161;
+    position: sticky;
+    top: 0;
 }
 .icono-pokedex{
     padding: 0 0 0 30px;
-    height: 50px;
+    height: 45px;
 }
 
+
 h1{
-    padding: 0 0 0 30px;
+    padding: 0 0 0 15px;
     color: #313131;
+    font-size: 20px;
 }
 
 img{
@@ -35,13 +41,18 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    
+    width: 100%;
+    background-image: url('./assets/img/background.png');
+    background-repeat: no-repeat; 
+    background-size: cover;
+    background-position: center center; 
 }
 
 section{
     
     display: flex;
     align-items: center;
+    width: 100%;
     
 }
 
@@ -51,9 +62,10 @@ ul{
     gap: 40px;
     margin-top: 50px;
     align-items: center;
-    width: calc(200px*6);
+    width: 100vh;
     /* height: calc(200px*2);
-    overflow-y: scroll; */
+    overflow-y5: scroll; */
+    
 }
 
 .numero-id{
@@ -72,7 +84,7 @@ li:hover .pokemon{
 
 li{
     padding-top: 20px;
-    
+    width: 800px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -196,10 +208,15 @@ li:hover{
 @media screen and (max-width: 500px){
 
 
+    
+
     ul{
         flex-direction: column;
         width: calc(200px*3);
+        justify-content: center;
+        align-items: center;
     }
+
 
 
     
